@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836068133830",
+    "project_id": "flixmovies-180da",
+    "storage_bucket": "flixmovies-180da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836068133830:android:14a2aca686497dbe6a80c7",
+        "android_client_info": {
+          "package_name": "com.example.flixmovies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwsXST2jAsYYy9c40CHobxgoPet-7pO2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
