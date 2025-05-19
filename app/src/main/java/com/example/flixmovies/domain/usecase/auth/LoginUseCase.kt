@@ -4,7 +4,7 @@ import com.example.flixmovies.domain.repository.auth.FirebaseAuthentication
 import javax.inject.Inject
 
 class LoginUseCase @Inject constructor (
-    private val firebaseAuthentication: FirebaseAuthentication
+    private val firebaseAuthentication: Fire
 ) {
 
     suspend operator fun invoke(email: String, password: String) {

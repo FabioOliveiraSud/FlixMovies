@@ -11,7 +11,6 @@ import androidx.fragment.app.viewModels
 import com.bumptech.glide.Glide
 import com.example.flixmovies.R
 import com.example.flixmovies.databinding.FragmentForgotBinding
-import com.example.flixmovies.databinding.FragmentRegisterBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -20,7 +19,7 @@ class ForgotFragment : Fragment() {
     private var _binding: FragmentForgotBinding? = null
     private val binding get() = _binding!!
 
-    private val viewModel: RegisterViewModel by viewModels()
+    private val viewModel: ForgotViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,

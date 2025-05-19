@@ -17,10 +17,10 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class RegisterFragment : Fragment() {
 
+    private val viewModel: RegisterViewModel by viewModels()
+
     private var _binding: FragmentRegisterBinding? = null
     private val binding get() = _binding!!
-
-    private val viewModel: RegisterViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
